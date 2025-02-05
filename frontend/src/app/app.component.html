@@ -1,0 +1,7 @@
+<div #body class="body" >
+  @for (wave of waves; track wave.count) {
+    <div [ngStyle]="{'margin-top': wave.y + 'px', 'margin-left': wave.x + 'px'}" class="wave"></div>
+  }
+</div>
+
+
